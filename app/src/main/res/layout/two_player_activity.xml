@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/board"
+        android:layout_width="325dp"
+        android:layout_height="325dp" />
+
+
+    <ImageButton
+        android:id="@+id/stone0101"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size"/>
+    <ImageButton
+        android:id="@+id/stone0102"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:layout_marginLeft="@dimen/margin_left2"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0103"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:layout_marginLeft="@dimen/margin_left3"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0104"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:layout_marginLeft="@dimen/margin_left4"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0105"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:layout_marginLeft="@dimen/margin_left5"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0106"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:layout_marginLeft="@dimen/margin_left6"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0107"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:layout_marginLeft="@dimen/margin_left7"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0108"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:layout_marginLeft="@dimen/margin_left8"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0109"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:layout_marginLeft="@dimen/margin_left9"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0110"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:layout_marginLeft="@dimen/margin_left10"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0111"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:layout_marginLeft="@dimen/margin_left11"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0112"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:layout_marginLeft="@dimen/margin_left12"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0113"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:layout_marginLeft="@dimen/margin_left13"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+
+
+    <ImageButton
+        android:id="@+id/stone0201"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top2"
+        android:layout_marginLeft="@dimen/margin_left1"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0202"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top2"
+        android:layout_marginLeft="@dimen/margin_left2"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0203"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top2"
+        android:layout_marginLeft="@dimen/margin_left3"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0204"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top2"
+        android:layout_marginLeft="@dimen/margin_left4"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0205"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top2"
+        android:layout_marginLeft="@dimen/margin_left5"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0206"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top2"
+        android:layout_marginLeft="@dimen/margin_left6"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0207"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top2"
+        android:layout_marginLeft="@dimen/margin_left7"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0208"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top2"
+        android:layout_marginLeft="@dimen/margin_left8"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0209"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top2"
+        android:layout_marginLeft="@dimen/margin_left9"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0210"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top2"
+        android:layout_marginLeft="@dimen/margin_left10"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0211"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top2"
+        android:layout_marginLeft="@dimen/margin_left11"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0212"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top2"
+        android:layout_marginLeft="@dimen/margin_left12"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0213"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top2"
+        android:layout_marginLeft="@dimen/margin_left13"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+
+
+    <ImageButton
+        android:id="@+id/stone0301"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top3"
+        android:layout_marginLeft="@dimen/margin_left1"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0302"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top3"
+        android:layout_marginLeft="@dimen/margin_left2"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0303"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top3"
+        android:layout_marginLeft="@dimen/margin_left3"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0304"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top3"
+        android:layout_marginLeft="@dimen/margin_left4"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0305"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top3"
+        android:layout_marginLeft="@dimen/margin_left5"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0306"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top3"
+        android:layout_marginLeft="@dimen/margin_left6"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0307"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top3"
+        android:layout_marginLeft="@dimen/margin_left7"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0308"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top3"
+        android:layout_marginLeft="@dimen/margin_left8"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0309"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top3"
+        android:layout_marginLeft="@dimen/margin_left9"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0310"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top3"
+        android:layout_marginLeft="@dimen/margin_left10"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0311"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top3"
+        android:layout_marginLeft="@dimen/margin_left11"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0312"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top3"
+        android:layout_marginLeft="@dimen/margin_left12"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0313"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top3"
+        android:layout_marginLeft="@dimen/margin_left13"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+
+
+    <ImageButton
+        android:id="@+id/stone0401"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top4"
+        android:layout_marginLeft="@dimen/margin_left1"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0402"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top4"
+        android:layout_marginLeft="@dimen/margin_left2"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0403"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top4"
+        android:layout_marginLeft="@dimen/margin_left3"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0404"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top4"
+        android:layout_marginLeft="@dimen/margin_left4"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0405"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top4"
+        android:layout_marginLeft="@dimen/margin_left5"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0406"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top4"
+        android:layout_marginLeft="@dimen/margin_left6"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0407"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top4"
+        android:layout_marginLeft="@dimen/margin_left7"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0408"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top4"
+        android:layout_marginLeft="@dimen/margin_left8"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0409"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top4"
+        android:layout_marginLeft="@dimen/margin_left9"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0410"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top4"
+        android:layout_marginLeft="@dimen/margin_left10"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0411"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top4"
+        android:layout_marginLeft="@dimen/margin_left11"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0412"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top4"
+        android:layout_marginLeft="@dimen/margin_left12"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0413"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top4"
+        android:layout_marginLeft="@dimen/margin_left13"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+
+
+    <ImageButton
+        android:id="@+id/stone0501"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top5"
+        android:layout_marginLeft="@dimen/margin_left1"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0502"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top5"
+        android:layout_marginLeft="@dimen/margin_left2"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0503"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top5"
+        android:layout_marginLeft="@dimen/margin_left3"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0504"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top5"
+        android:layout_marginLeft="@dimen/margin_left4"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0505"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top5"
+        android:layout_marginLeft="@dimen/margin_left5"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0506"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top5"
+        android:layout_marginLeft="@dimen/margin_left6"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0507"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top5"
+        android:layout_marginLeft="@dimen/margin_left7"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0508"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top5"
+        android:layout_marginLeft="@dimen/margin_left8"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0509"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top5"
+        android:layout_marginLeft="@dimen/margin_left9"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0510"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top5"
+        android:layout_marginLeft="@dimen/margin_left10"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0511"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top5"
+        android:layout_marginLeft="@dimen/margin_left11"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0512"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top5"
+        android:layout_marginLeft="@dimen/margin_left12"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0513"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top5"
+        android:layout_marginLeft="@dimen/margin_left13"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+
+
+    <ImageButton
+        android:id="@+id/stone0601"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top6"
+        android:layout_marginLeft="@dimen/margin_left1"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0602"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top6"
+        android:layout_marginLeft="@dimen/margin_left2"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0603"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top6"
+        android:layout_marginLeft="@dimen/margin_left3"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0604"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top6"
+        android:layout_marginLeft="@dimen/margin_left4"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0605"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top6"
+        android:layout_marginLeft="@dimen/margin_left5"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0606"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top6"
+        android:layout_marginLeft="@dimen/margin_left6"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0607"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top6"
+        android:layout_marginLeft="@dimen/margin_left7"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0608"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top6"
+        android:layout_marginLeft="@dimen/margin_left8"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0609"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top6"
+        android:layout_marginLeft="@dimen/margin_left9"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0610"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top6"
+        android:layout_marginLeft="@dimen/margin_left10"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0611"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top6"
+        android:layout_marginLeft="@dimen/margin_left11"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0612"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top6"
+        android:layout_marginLeft="@dimen/margin_left12"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0613"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top6"
+        android:layout_marginLeft="@dimen/margin_left13"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+
+
+    <ImageButton
+        android:id="@+id/stone0701"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top7"
+        android:layout_marginLeft="@dimen/margin_left1"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0702"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top7"
+        android:layout_marginLeft="@dimen/margin_left2"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0703"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top7"
+        android:layout_marginLeft="@dimen/margin_left3"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0704"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top7"
+        android:layout_marginLeft="@dimen/margin_left4"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0705"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top7"
+        android:layout_marginLeft="@dimen/margin_left5"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0706"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top7"
+        android:layout_marginLeft="@dimen/margin_left6"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0707"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top7"
+        android:layout_marginLeft="@dimen/margin_left7"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0708"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top7"
+        android:layout_marginLeft="@dimen/margin_left8"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0709"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top7"
+        android:layout_marginLeft="@dimen/margin_left9"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0710"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top7"
+        android:layout_marginLeft="@dimen/margin_left10"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0711"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top7"
+        android:layout_marginLeft="@dimen/margin_left11"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0712"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top7"
+        android:layout_marginLeft="@dimen/margin_left12"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0713"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top7"
+        android:layout_marginLeft="@dimen/margin_left13"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+
+
+    <ImageButton
+        android:id="@+id/stone0801"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top8"
+        android:layout_marginLeft="@dimen/margin_left1"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0802"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top8"
+        android:layout_marginLeft="@dimen/margin_left2"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0803"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top8"
+        android:layout_marginLeft="@dimen/margin_left3"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0804"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top8"
+        android:layout_marginLeft="@dimen/margin_left4"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0805"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top8"
+        android:layout_marginLeft="@dimen/margin_left5"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0806"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top8"
+        android:layout_marginLeft="@dimen/margin_left6"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0807"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top8"
+        android:layout_marginLeft="@dimen/margin_left7"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0808"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top8"
+        android:layout_marginLeft="@dimen/margin_left8"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0809"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top8"
+        android:layout_marginLeft="@dimen/margin_left9"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0810"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top8"
+        android:layout_marginLeft="@dimen/margin_left10"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0811"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top8"
+        android:layout_marginLeft="@dimen/margin_left11"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0812"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top8"
+        android:layout_marginLeft="@dimen/margin_left12"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0813"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top8"
+        android:layout_marginLeft="@dimen/margin_left13"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+
+
+    <ImageButton
+        android:id="@+id/stone0901"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top9"
+        android:layout_marginLeft="@dimen/margin_left1"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0902"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top9"
+        android:layout_marginLeft="@dimen/margin_left2"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0903"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top9"
+        android:layout_marginLeft="@dimen/margin_left3"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0904"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top9"
+        android:layout_marginLeft="@dimen/margin_left4"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0905"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top9"
+        android:layout_marginLeft="@dimen/margin_left5"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0906"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top9"
+        android:layout_marginLeft="@dimen/margin_left6"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0907"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top9"
+        android:layout_marginLeft="@dimen/margin_left7"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0908"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top9"
+        android:layout_marginLeft="@dimen/margin_left8"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0909"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top9"
+        android:layout_marginLeft="@dimen/margin_left9"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0910"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top9"
+        android:layout_marginLeft="@dimen/margin_left10"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0911"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top9"
+        android:layout_marginLeft="@dimen/margin_left11"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0912"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top9"
+        android:layout_marginLeft="@dimen/margin_left12"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone0913"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top9"
+        android:layout_marginLeft="@dimen/margin_left13"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+
+
+
+    <ImageButton
+        android:id="@+id/stone1001"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top10"
+        android:layout_marginLeft="@dimen/margin_left1"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1002"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top10"
+        android:layout_marginLeft="@dimen/margin_left2"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1003"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top10"
+        android:layout_marginLeft="@dimen/margin_left3"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1004"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top10"
+        android:layout_marginLeft="@dimen/margin_left4"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1005"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top10"
+        android:layout_marginLeft="@dimen/margin_left5"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1006"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top10"
+        android:layout_marginLeft="@dimen/margin_left6"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1007"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top10"
+        android:layout_marginLeft="@dimen/margin_left7"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1008"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top10"
+        android:layout_marginLeft="@dimen/margin_left8"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1009"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top10"
+        android:layout_marginLeft="@dimen/margin_left9"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1010"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top10"
+        android:layout_marginLeft="@dimen/margin_left10"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1011"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top10"
+        android:layout_marginLeft="@dimen/margin_left11"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1012"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top10"
+        android:layout_marginLeft="@dimen/margin_left12"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1013"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top10"
+        android:layout_marginLeft="@dimen/margin_left13"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+
+
+
+    <ImageButton
+        android:id="@+id/stone1101"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top11"
+        android:layout_marginLeft="@dimen/margin_left1"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1102"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top11"
+        android:layout_marginLeft="@dimen/margin_left2"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1103"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top11"
+        android:layout_marginLeft="@dimen/margin_left3"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1104"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top11"
+        android:layout_marginLeft="@dimen/margin_left4"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1105"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top11"
+        android:layout_marginLeft="@dimen/margin_left5"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1106"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top11"
+        android:layout_marginLeft="@dimen/margin_left6"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1107"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top11"
+        android:layout_marginLeft="@dimen/margin_left7"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1108"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top11"
+        android:layout_marginLeft="@dimen/margin_left8"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1109"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top11"
+        android:layout_marginLeft="@dimen/margin_left9"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1110"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top11"
+        android:layout_marginLeft="@dimen/margin_left10"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1111"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top11"
+        android:layout_marginLeft="@dimen/margin_left11"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1112"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top11"
+        android:layout_marginLeft="@dimen/margin_left12"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1113"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top11"
+        android:layout_marginLeft="@dimen/margin_left13"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+
+
+
+    <ImageButton
+        android:id="@+id/stone1201"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top12"
+        android:layout_marginLeft="@dimen/margin_left1"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1202"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top12"
+        android:layout_marginLeft="@dimen/margin_left2"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1203"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top12"
+        android:layout_marginLeft="@dimen/margin_left3"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1204"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top12"
+        android:layout_marginLeft="@dimen/margin_left4"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1205"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top12"
+        android:layout_marginLeft="@dimen/margin_left5"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1206"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top12"
+        android:layout_marginLeft="@dimen/margin_left6"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1207"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top12"
+        android:layout_marginLeft="@dimen/margin_left7"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1208"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top12"
+        android:layout_marginLeft="@dimen/margin_left8"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1209"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top12"
+        android:layout_marginLeft="@dimen/margin_left9"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1210"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top12"
+        android:layout_marginLeft="@dimen/margin_left10"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1211"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top12"
+        android:layout_marginLeft="@dimen/margin_left11"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1212"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top12"
+        android:layout_marginLeft="@dimen/margin_left12"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1213"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top12"
+        android:layout_marginLeft="@dimen/margin_left13"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+
+
+
+    <ImageButton
+        android:id="@+id/stone1301"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top13"
+        android:layout_marginLeft="@dimen/margin_left1"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1302"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top13"
+        android:layout_marginLeft="@dimen/margin_left2"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1303"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top13"
+        android:layout_marginLeft="@dimen/margin_left3"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1304"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top13"
+        android:layout_marginLeft="@dimen/margin_left4"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1305"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top13"
+        android:layout_marginLeft="@dimen/margin_left5"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1306"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top13"
+        android:layout_marginLeft="@dimen/margin_left6"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1307"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top13"
+        android:layout_marginLeft="@dimen/margin_left7"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1308"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top13"
+        android:layout_marginLeft="@dimen/margin_left8"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1309"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top13"
+        android:layout_marginLeft="@dimen/margin_left9"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1310"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top13"
+        android:layout_marginLeft="@dimen/margin_left10"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1311"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top13"
+        android:layout_marginLeft="@dimen/margin_left11"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1312"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top13"
+        android:layout_marginLeft="@dimen/margin_left12"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+    <ImageButton
+        android:id="@+id/stone1313"
+        android:background="@drawable/blank"
+        android:layout_marginTop="@dimen/margin_top13"
+        android:layout_marginLeft="@dimen/margin_left13"
+        android:layout_width="@dimen/stone_size"
+        android:layout_height="@dimen/stone_size" />
+
+
+    <Button
+        android:id="@+id/put_button"
+        android:text="착수"
+        android:layout_marginTop="350dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:text="무르기"
+        android:layout_toRightOf="@+id/put_button"
+        android:layout_marginTop="350dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
